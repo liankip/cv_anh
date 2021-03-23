@@ -42,7 +42,7 @@
     <div class="container">
       <h1 class="title">Tentang Saya</h1>
       <hr />
-      <p class="is-size-3">Haloo, perkenalkan nama saya agung nizam hawari biasa dipanggil agung dan saya adalah freelance photographer, tidak lupa juga saya suka melakukan perjalanan jauh, berfoto di alam terbuka di daerah pegunangan dan bersepeda. <span class="has-text-primary">dan jangan malu untuk dengan chat dengan saya langsung klik tombol diatas dan pilih satu.</span></p>
+      <p class="is-size-3">Haloo, perkenalkan nama saya agung nizam hawari biasa dipanggil agung dan saya adalah freelance photographer, tidak lupa juga saya suka melakukan perjalanan jauh, berfoto di alam terbuka di daerah pegunangan dan bersepeda. <span class="has-text-success">dan jangan malu untuk dengan chat dengan saya langsung klik tombol diatas dan pilih satu.</span></p>
     </div>
   </section>
 
