@@ -2,9 +2,8 @@
 <div>
   <section class="section">
     <div class="container">
-      <div class="content is-large">
-        <h1>Bulma Responsive Gallery</h1>
-        <p>I was having trouble finding an example of a Bulma based gallery that wrapped.  Here is what I came up with...</p>
+      <div class="content">
+        <h1>Portofolio</h1>
       </div>
 
       <div class="columns is-multiline">
@@ -12,8 +11,6 @@
           <div class="card">
             <div class="card-image">
               <figure class="image ">
-              <!-- <figure class="image is-3by2"> -->
-                <!-- <img src="https://unsplash.it/300/200/?random&pic=1" alt=""> -->
                 <img :src="image.ims" :key="image.id" alt="">
               </figure>
             </div>

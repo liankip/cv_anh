@@ -2,69 +2,24 @@
 <div>
   <section class="section">
     <div class="container">
-      <h1 class="title">Experience</h1>
+      <h1 class="title">Pengalaman Kerja</h1>
       <hr />
-      <div class="card">
+      <div v-for="experience in experiences" v-bind:key="experience.id" class="card card-gap">
         <div class="card-content">
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
-                <img src="../assets/img/dunder-mifflin-logo.png" alt="Placeholder image">
+                <img v-bind:src="experience.ims" alt="Placeholder image">
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-4">Company Name</p>
-              <p class="subtitle is-6">Title - <time datetime="2018-1">January 2018</time> - <time
-                  datetime="2019-9">Sepemter 2019</time> </p>
+              <p class="title is-4">{{ experience.name }}</p>
+              <p class="subtitle is-6"><time datetime="2018-1">{{experience.dstart}}</time> - <time
+                  datetime="2019-9">{{experience.dend}}</time> </p>
             </div>
           </div>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>
-            <ul>
-              <li>Noteworthy achievment here.</li>
-              <li>Noteworthy achievment here.</li>
-              <li>Noteworthy achievment here.</li>
-            </ul>
-            <div class="tags">
-              <span class="tag">c#</span>
-              <span class="tag">xamarin</span>
-              <span class="tag">asp.net core</span>
-              <span class="tag">.net core</span>
-              <span class="tag">azure</span>
-              <span class="tag">devops</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="../assets/img/pied-piper-logo.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">Company Name</p>
-              <p class="subtitle is-6">Title - <time datetime="2018-1">August 2017</time> - <time
-                  datetime="2017-9">January 2018</time></p>
-            </div>
-          </div>
-          <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>
-            <ul>
-              <li>Noteworthy achievment here.</li>
-              <li>Noteworthy achievment here.</li>
-              <li>Noteworthy achievment here.</li>
-            </ul>
-            <div class="tags">
-              <span class="tag">c#</span>
-              <span class="tag">xamarin</span>
-              <span class="tag">asp.net core</span>
-              <span class="tag">.net core</span>
-              <span class="tag">azure</span>
-              <span class="tag">devops</span>
-            </div>
+            <p>{{ experience.job }}</p>
           </div>
         </div>
       </div>
@@ -72,3 +27,54 @@
   </section>
 </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      experiences: [
+        {
+          id: 1,
+          name: "PT Asuransi Jiwa Adisarana WanaArtha",
+          ims: require('@/assets/img/wanarthalife.png'),
+          job: "Sebagai office boy",
+          dstart: "2014",
+          dend: "2014"
+        },
+        {
+          id: 2,
+          name: "WIGO",
+          ims: require('@/assets/img/wigo.png'),
+          job: "Sebagai direct sales executive (DSE)",
+          dstart: "2014",
+          dend: "2016"
+        },
+        {
+          id: 3,
+          name: "HOTEL MIYANA",
+          ims: require('@/assets/img/miyana.png'),
+          job: "Sebagai Steward, Waiters, Banquet, Bartender",
+          dstart: "2017",
+          dend: "2018"
+        },
+        {
+          id: 4,
+          name: "PT. ARVIN INTI JAYA",
+          ims: require('@/assets/img/arwin.png'),
+          job: "Sebagai Admin Gudang",
+          dstart: "2018",
+          dend: "2021"
+        },
+        {
+          id: 5,
+          name: "Freelance Photographer",
+          ims: require('@/assets/img/real.png'),
+          job: "Sebagi Photographer",
+          dstart: "2019",
+          dend: "2021"
+        }
+      ]
+    }
+  }
+}
+</script>

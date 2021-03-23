@@ -16,13 +16,22 @@
               Agung Nizam Hawari
             </h1>
             <h2 class="subtitle">
-              Photografer
+              Photographer
             </h2>
-            <p>
-              <a href="docs/resume.txt" class="icon has-text-light">
-                <i class="fas fa-file-word"></i> <strong>Resume</strong>
-              </a>
-            </p>
+            <div class="tags are-large is-centered">
+              <span class="tag is-dark">
+                <a href="https://wa.me/6281362056296?text=Haloo%20Agung,%20saya%20sangat%20suka%20dengan%20cv%20dan%20portofoliomu">
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
+              </span>
+              <span class="tag is-dark"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+              <span class="tag is-dark"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+              <span class="tag is-dark">
+                <a href="mailto:nizaemmaru@gmail.com">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
+              </span>
+            </div>
           </div>
         </div>
       </div>
@@ -31,13 +40,9 @@
 
   <section class="section">
     <div class="container">
-      <h1 class="title">About Me</h1>
+      <h1 class="title">Tentang Saya</h1>
       <hr />
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
+      <p class="is-size-3">Haloo, perkenalkan nama saya agung nizam hawari biasa dipanggil agung dan saya adalah freelance photographer, tidak lupa juga saya suka melakukan perjalanan jauh, berfoto di alam terbuka di daerah pegunangan dan bersepeda. <span class="has-text-primary">dan jangan malu untuk dengan chat dengan saya langsung klik tombol diatas dan pilih satu.</span></p>
     </div>
   </section>
 
