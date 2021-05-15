@@ -3,8 +3,15 @@
 <section class="section">
 	<div class="container">
 		<h1 class="title">Kursus</h1>
-		<hr />
-		<div v-for="training in trainings" v-bind:key="training.id" class="card card-gap">
+    <div class="columns is-multiline is-mobile has-text-centered">
+<!-- section1 -->
+			<div v-for="training in trainings" v-bind:key="training.id" class="column is-3-tablet is-6-mobile">
+        <img :src="training.img" /> 
+				<p class="title is-6">{{ training.name }}</p>
+        <p class="subtitle is-6"><span class="tag is-dark">{{training.require}}</span> - <time datetime="2016-9">{{training.dstart}}</time> - <time datetime="2019-9">{{training.dend}}</time></p>
+			</div>
+    </div>
+		<!-- <div v-for="training in trainings" v-bind:key="training.id" class="card card-gap">
 			<div class="card-content">
 					<div class="content">
             <p class="title is-4">{{ training.name }}</p>
@@ -13,7 +20,7 @@
             <img :src="training.img" /> 
 					</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </section>
 <section class="section">
