@@ -13,13 +13,10 @@
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-4">{{ experience.name }}</p>
+              <p class="title is-4">{{ experience.name }} - ({{ experience.job }})</p>
               <p class="subtitle is-6"><time datetime="2018-1">{{experience.dstart}}</time> - <time
                   datetime="2019-9">{{experience.dend}}</time> </p>
             </div>
-          </div>
-          <div class="content">
-            <p>{{ experience.job }}</p>
           </div>
         </div>
       </div>
@@ -37,7 +34,7 @@ export default {
           id: 1,
           name: "PT Asuransi Jiwa Adisarana WanaArtha",
           ims: require('@/assets/img/wanarthalife.png'),
-          job: "Sebagai office boy",
+          job: "Office Boy",
           dstart: "2014",
           dend: "2014"
         },
@@ -45,7 +42,7 @@ export default {
           id: 2,
           name: "WIGO",
           ims: require('@/assets/img/wigo.png'),
-          job: "Sebagai direct sales executive (DSE)",
+          job: "Direct Sales Executive (DSE)",
           dstart: "2014",
           dend: "2016"
         },
@@ -53,7 +50,7 @@ export default {
           id: 3,
           name: "HOTEL MIYANA",
           ims: require('@/assets/img/miyana.png'),
-          job: "Sebagai Steward, Waiters, Banquet, Bartender",
+          job: "Steward, Waiters, Banquet, Bartender",
           dstart: "2017",
           dend: "2018"
         },
@@ -61,7 +58,7 @@ export default {
           id: 4,
           name: "PT. ARVIN INTI JAYA",
           ims: require('@/assets/img/arwin.png'),
-          job: "Sebagai Admin Gudang",
+          job: "Admin Gudang",
           dstart: "2018",
           dend: "2021"
         },
@@ -69,9 +66,9 @@ export default {
           id: 5,
           name: "Freelance Photographer",
           ims: require('@/assets/img/real.png'),
-          job: "Sebagi Photographer",
+          job: "Photographer",
           dstart: "2019",
-          dend: "2021"
+          dend: "Sekarang"
         }
       ]
     }
